@@ -7,23 +7,62 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="pwdo-icon"></div>
-            <ul class="nav-items">
-                <li>Events</li>
-                <li>Code of Conduct</li>
-                <button>Join Now</button>
+        <nav class="navbar">
+            <a href="https://pwdo.org" target=_blank>
+                <img class="pwdo-img" src="https://github.com/pwdo/Logo/blob/master/pwdo-logo-dark-square.png?raw=true"/>
+            </a>
+            <ul class="nav-links">
+                <li>
+                    <a class="link" href="https://mini.formfunctionclass.com" target=_blank>
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a class="link" href="https://pwdo.org/conduct" target=_blank>
+                        Code of Conduct
+                    </a>
+                </li>
+                <li>
+                    <a class="link cta-active" href="https://pwdo.org" target=_blank>Join Now</a>
+                </li>
             </ul>
         </nav>
     </header>
-    <section id="#hero" class="hero">
-        {{ content | safe }}
-    </section>
-    <section id="#about" class="about">
-    
-    </section>
-    <footer id="#footer" class="footer">
-    
+    <main class="main-content content-padding">
+        <section id="#hero" class="hero">
+            <h1 class="hero-header">Recruit. Volunteer. Get Trained. Share.</h1>
+            <p class="display">Reboot is an initiative of PWDO to recruit and train people in advancing our shared advocacy to help nurture the local design community.</p>
+            <!-- revisit implem later -->
+            <div class="row">
+                <a class="link cta-active" href="https://pwdo.org" target=_blank>Join Now</a>
+                <a class="link cta-inactive" href="https://pwdo.org" target=_blank>About PWDO</a>
+            </div>
+        </section>
+
+        <section id="#about" class="about">
+            <h2 class="about-header">Nurture the people, nurture the community</h2>
+            <p class="display">As engaged as our members are, we are all volunteers at the end of the day. But, by being with people who can help you nurture, we can help grow both you and the community.</p>
+            <p class="display">Here are some of the plans we have so far. Maybe you can help us make this better!</p>
+            <ul>
+                <li>Roles with your personal goals</li>
+                <li>Volunteer by availability</li>
+                <li>Inclusive remote orientations</li>
+                <li>Quarterly Skillshares</li>
+                <li>Internal Trainings</li>
+                <li>Periodic Socials</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="#footer" class="footer content-padding">
+        <div class="flex-left">
+            <h2 class="footer-header">Are you ready to reboot?</h2>
+            <!-- revisit implem later -->
+            <a class="link cta-active" href="https://pwdo.org" target=_blank>Join Now</a>
+        </div>
+        <a href="https://pwdo.org" target=_blank>
+            <img class="pwdo-img-footer" src="https://github.com/pwdo/Logo/raw/master/pwdo-logo-square.png?raw=true"/>
+        </a>
     </footer>
 </body>
 </html>
