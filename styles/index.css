@@ -70,6 +70,18 @@ p {
 .link {
     text-decoration: none;
     color: #FFF;
+}
+
+.link-thicc {
+    text-align: center;
+    padding: 15px 0;
+    display: inline-block;
+    width: 240px;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.link-smol {
     padding: 6px 20px;
 }
 
@@ -101,12 +113,6 @@ p {
     text-transform: uppercase;
     line-height: 50px;
     letter-spacing: 0.1em;
-}
-
-.row {
-    align-self: center;
-    display: flex;
-    flex-direction: row;
 }
 
 .display-about {
