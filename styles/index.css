@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
 body {
     margin: 0;
@@ -27,12 +27,11 @@ h1 {
 
 h2 {
     font-size: 42px;
-    margin: 0;
+    margin: 24px 0;
     letter-spacing: 0.05em;
 }
 
 p {
-    margin: 0px;
     line-height: 22px;
     letter-spacing: 0.1em;
 }
@@ -44,12 +43,12 @@ p {
     justify-content: space-between;
     background-color: #1C304F;
     height: 65px;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .pwdo-img {
-    height: 100%;
-    width: auto;
-    margin: 15px;
+    height: auto;
+    width: 55px;
 }
 
 .pwdo-img-footer {
@@ -62,7 +61,6 @@ p {
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin: 20px;
 }
 
 .nav-links li {
@@ -91,7 +89,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 70vh;
+    min-height: 70vh;
     text-align: center;
 }
 
@@ -112,14 +110,23 @@ p {
     flex-direction: row;
 }
 
-.display {
-    margin: 12px;
+.display-about {
+    max-width: 45%;
 }
 
 .about {
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    min-height: 600px;
+}
+
+.section-spacer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-header {
+    line-height: 42px;
 }
 
 .footer {
@@ -128,10 +135,29 @@ p {
     align-items: center;
     justify-content: space-between;
     background-color: #FFF;
-    height: 270px;
-    
+    min-height: 270px;
 }
 
 .footer-header {
     color: #000;
+}
+
+.big-list {
+    list-style: none;
+    display: grid;
+    padding: 0;
+    grid-template-columns: 50% 50%;
+    row-gap: 25px;
+    column-gap: 40px;
+    box-shadow: 0px 14px 24px rgba(81, 81, 81, 0.24);
+    border-radius: 3px;
+}
+
+.list-item {
+    font-size: 32px;
+    padding: 17px 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    background: #fdfdfd;
 }
