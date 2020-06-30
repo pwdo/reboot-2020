@@ -11,10 +11,6 @@ body {
 .main-content {
     display: flex;
     flex-direction: column;
-   
-}
-
-.content-padding {
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -78,7 +74,9 @@ p {
     display: inline-block;
     width: 240px;
     font-size: 24px;
+    font-weight: 700;
     line-height: 31px;
+    margin: 8px;
 }
 
 .link-smol {
@@ -102,6 +100,8 @@ p {
     justify-content: center;
     min-height: 70vh;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hero a {
@@ -109,7 +109,6 @@ p {
 }
 
 .hero-header {
-    margin: 22px;
     text-transform: uppercase;
     line-height: 50px;
     letter-spacing: 0.1em;
@@ -123,9 +122,6 @@ p {
     display: flex;
     flex-direction: column;
     min-height: 600px;
-}
-
-.section-spacer {
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -141,6 +137,8 @@ p {
     justify-content: space-between;
     background-color: #FFF;
     min-height: 270px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .footer-header {
@@ -154,8 +152,7 @@ p {
     grid-template-columns: 50% 50%;
     row-gap: 25px;
     column-gap: 40px;
-    box-shadow: 0px 14px 24px rgba(81, 81, 81, 0.24);
-    border-radius: 3px;
+    
 }
 
 .list-item {
@@ -165,4 +162,6 @@ p {
     font-weight: bold;
     color: #000;
     background: #fdfdfd;
+    box-shadow: 0px 14px 24px rgba(81, 81, 81, 0.24);
+    border-radius: 3px;
 }

@@ -1,0 +1,47 @@
+@media only screen
+	and (max-width: 812px) {
+		.main-content {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+		.hero-header {
+			font-size: 40px;
+		}
+
+		.about {
+			padding-top: 0px;
+		}
+
+		.about-header {
+			font-size: 36px;
+		}
+
+		.display-about {
+			max-width: 100%;
+		}
+
+		.big-list {
+			grid-template-columns: 100%;
+		}
+
+		.list-item {
+			font-size: 20px;
+		}
+
+		.footer {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+		.footer-header {
+			font-size: 36px;
+			line-height: 105%;
+		}
+
+		.pwdo-img-footer {
+			display: none;
+		}
+
+
+}
