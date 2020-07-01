@@ -43,5 +43,18 @@
 			display: none;
 		}
 
+		.navbar {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		.nav-links {
+			display: none;
+		}
+
+		.nav-links-mobile {
+			display: flex;
+		}
+
 
 }

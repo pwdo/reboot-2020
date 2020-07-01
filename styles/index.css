@@ -63,6 +63,12 @@ p {
     margin-right: 12px;
 }
 
+.nav-links-mobile {
+    flex-direction: row;
+    list-style: none;
+    display: none;
+}
+
 .link {
     text-decoration: none;
     color: #FFF;
