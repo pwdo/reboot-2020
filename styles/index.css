@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: "DM Sans";
+    font-family: "DM Sans", "Helvetica", "Arial", sans-serif;
     font-size: 18px;
     background-color: #1A2F4E;
     color: #FFF;
