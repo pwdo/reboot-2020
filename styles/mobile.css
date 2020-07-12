@@ -4,7 +4,7 @@
 			background-image: none;
 			background-size: auto;
 		}
-		
+
 		.main-content {
 			padding-left: 30px;
 			padding-right: 30px;
@@ -60,6 +60,4 @@
 		.nav-links-mobile {
 			display: flex;
 		}
-
-
 }
