@@ -7,7 +7,8 @@ body {
     background-color: #1A2F4E;
     color: #FFF;
     background-image: url("../images/bg-pattern.svg");
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .main-content {
